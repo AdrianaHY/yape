@@ -1,0 +1,24 @@
+body{
+  padding:5vh;
+}
+//primera vista
+.carousel {
+    height:90vh;
+    .carousel-item>img {
+      width: 100%;
+      height: 90vh;
+    }
+}
+.yellow{
+  background:#fbd43b;
+}
+.btn-large{
+  font-size: 1.5rem;
+}
+//segunda vista
+.phone_dos{
+  width: 50%;
+}
+#quintaVista{
+  padding-top: 30vh;
+}
