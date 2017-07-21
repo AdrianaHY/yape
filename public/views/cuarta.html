@@ -36,35 +36,37 @@
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix"><img src="/static/assets/img/icons/user.png" alt="lock"></i>
-            <input id="icon_prefix" type="text" class="validate" placeholder="Nombre">
-            <label for="icon_prefix"></label>
+            <input id="nombre" type="text" class="validate" placeholder="Nombre">
+            <label for="nombre"></label>
           </div>
           <div class="input-field col s12">
             <i class="material-icons prefix"><img src="/static/assets/img/icons/message-gray.png" alt="lock"></i>
-            <input id="icon_prefix" type="text" class="validate" placeholder="correo@ejemplo.com">
-            <label for="icon_prefix"></label>
+            <input id="correo" type="text" class="validate" placeholder="correo@ejemplo.com">
+            <label for="correo"></label>
           </div>
           <div class="input-field col s12">
             <i class="material-icons prefix"><img src="/static/assets/img/icons/lock.png" alt="lock"></i>
-            <input id="icon_prefix" type="text" class="validate" placeholder="Ingresa clave de seis dígitos">
-            <label for="icon_prefix"></label>
+            <input id="clave" type="text" class="validate" placeholder="Ingresa clave de seis dígitos">
+            <label for="clave"></label>
+          </div>
+          <div class="container">
+            <div class="row">
+              <h5 class="col s12 center-align">Cuida esta clave como oro, es tu acceso a Yape</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="center-align col s8 offset-s2  font-size">
+              <button id="botonForm" type="button" name="button" class="waves-effect waves-light btn-large yellow" disabled>Crear cuenta</button>
+            </div>
           </div>
         </div>
       </form>
     </div>
-    <div class="container">
-      <div class="row">
-        <h5 class="col s12 center-align">Cuida esta clave como oro, es tu acceso a Yape</h5>
-      </div>
-    </div>
-    <div class="row">
-      <div class="center-align col s8 offset-s2  font-size">
-        <a class="waves-effect waves-light btn-large yellow  " href="static/views/segunda.html">Crear cuenta</a>
-      </div>
-    </div>
+
+
 
     <script src="/static/jquery/dist/jquery.min.js"></script>
     <script src="/static/materialize-css/dist/js/materialize.min.js"></script>
-    <script src="/static/assets/js/app.js"></script>
+    <script src="/static/assets/js/form.js"></script>
   </body>
 </html>
