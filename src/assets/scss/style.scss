@@ -1,12 +1,25 @@
-body{
-  padding:5vh;
+// body{
+//   padding:5vh;
+// }
+.margin-top{
+  margin-top: 2vh;
+}
+.margin-left{
+  margin-left: 3vh;
+}
+.vistas{
+  height: 100vh;
+  padding-top: 22vh;
+}
+.boder-bottom{
+  border-bottom: 2px solid #fff;
 }
 //primera vista
 .carousel {
-    height:90vh;
-    .carousel-item>img {
+    height:55vh;
+    .carousel-item > img {
       width: 100%;
-      height: 90vh;
+      height: 55vh;
     }
 }
 .yellow{
@@ -16,9 +29,71 @@ body{
   font-size: 1.5rem;
 }
 //segunda vista
+
+#aceptar{
+  height: 20vh;
+  padding-bottom: 5vh;
+}
 .phone_dos{
   width: 50%;
 }
+.formularioUno{
+  font-size: 2vh;
+}
+#registrar{
+  padding:1vh;
+  padding-bottom: 3vh;
+}
+#etiquetaAceptar{
+  font-size: 2.5vh;
+}
 #quintaVista{
   padding-top: 30vh;
+}
+
+// sexta vista
+.tarjetaTexto{
+  color: #8fe2d4;
+}
+#validarTarjeta{
+  margin-top: 15vh;
+}
+//octava vista
+#ultimaPagina{
+  margin:0;
+  height: 100vh;
+}
+.moradoUno{
+  background: #451e36;
+}
+#happyFace{
+  height: 40vh;
+}
+.blanco{
+  color: #fff;
+}
+#happyFace{
+  h1{
+      background: #451e36;
+  }
+  img{
+    width: 5vh;
+  }
+  #face{
+    width: 20vh;
+  }
+}
+#happyFaceDos{
+  background: #38052a;
+  height: 60vh;
+  color:#fff;
+    #iconoFlecha{
+      width: 5vh;
+    }img{
+      width: 10vh;
+      margin-left: 2vh;
+    }#ultimaSeccion{
+      margin-top: 10vh;
+    }
+
 }

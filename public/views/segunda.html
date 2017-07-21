@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="/static/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="/static/assets/css/style.css">
   </head>
-  <body>
+  <body class="vistas">
     <section class="container">
       <div class="row">
-        <img src="/static/assets/img/icons/phone.png" alt="phone" class="col s12 center-align center-align" style="width:50%">
+        <img src="/static/assets/img/icons/phone.png" alt="phone" class="center-align col s8 offset-s2 ">
       </div>
       <div class="row">
         <h1 class="center-align">Para comenzar validemos tu número</h1>
@@ -18,21 +18,29 @@
       <div class="row">
         <h4 class="center-align">Recibirás un SMS con un código de verificación</h4>
       </div>
-      <form class="col s12">
-				<div class="row">
-					<div class="input-field col s12">
-						<i class="material-icons prefix">phone</i>
-						<input type="tel" required/>
-						<label for="icon_telephone"></label>
-					</div>
-					<div class="col s12">
-						<input type="checkbox"/>
-						<label>Acepto los <a href="">Términos y condiciones</a></label>
-					</div>
-				</div>
-				<a class="btn waves-effect boton grey-text darken-text-2 boton" href="#">Registrarme</a>
-      </form>
     </section>
+
+    <div class="row margin-top" id="aceptar">
+      <form class="col s12" id="form">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="phone" type="tel" name="phone" pattern="[0-9]{10}" required>
+            <label for="phone"><img src="/static/assets/img/icons/phoneandnumber.png" alt="number"></label>
+          </div>
+        </div>
+				<div class="row">
+          <div class="input-field col s12">
+            <p class="center-align">
+              <input type="checkbox" class="filled-in" id="check"/>
+              <label for="check" id="etiquetaAceptar">Acepto los <a href="">Términos y condiciones</a></label>
+            </p>
+         </div>
+       </div>
+       <div class="row">
+         <button class="btn waves-effect white-text yellow center-align col s8 offset-s2" id="registrar" disabled><a href="tercerca.html" class="formularioUno">REGISTRARME</a> </button>
+       </div>
+      </form>
+    </div>
 
     <script src="/static/jquery/dist/jquery.min.js"></script>
     <script src="/static/materialize-css/dist/js/materialize.min.js"></script>

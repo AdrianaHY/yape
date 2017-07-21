@@ -18,7 +18,7 @@ var rutasPublic = {
 var rutas = {
   html: 'src/views/*.html',
   scss: 'src/assets/scss/style.scss',
-  js: 'src/assets/js/app.js',
+  js: 'src/assets/js/*.js',
 }
 
 
